@@ -1,0 +1,107 @@
+body {
+    background-color: #222;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.card {
+    background-color: rgba(42, 74, 121, 0.63);
+    width: 40%;
+    margin: 25px auto 0;
+    border: 2px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    text-align: center;
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+    border: 0;
+    font-size: 15px;
+    margin: auto;
+}
+
+.search button {
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    width: 47px;
+    height: 47px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 20px;
+    height: auto;
+}
+
+.weather {
+    display: none;
+}
+
+.weather_icon {
+    margin-top: 30px;
+    width: 200px;
+    height: auto;
+}
+
+.weather h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.details{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto auto auto;
+}
+
+.col img {
+    margin: auto;
+    margin-right: 15px;
+    width: 60px;
+    height: auto;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.humidity, .wind {
+    font-size: 30px;
+}
+
+.error {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none;
+}

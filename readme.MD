@@ -1,0 +1,1 @@
+Prototype of a web weather app.
